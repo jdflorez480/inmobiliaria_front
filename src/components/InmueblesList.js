@@ -586,14 +586,6 @@ const InmueblesList = () => {
                           e.target.src = 'https://placehold.co/400';
                         }}
                       />
-                      <div className="absolute top-3 right-3">
-                        <Button 
-                          shape="circle" 
-                          icon={<span className="text-red-500">♡</span>} 
-                          className="bg-white/80 border-none shadow-md hover:bg-white"
-                          size="small"
-                        />
-                      </div>
                     </div>
                   }
                   bodyStyle={{ padding: '16px' }}
@@ -647,7 +639,6 @@ const InmueblesList = () => {
                         </span>
                       </Button>
                       
-                      {/* Botones de editar y eliminar */}
                       <div className="flex gap-2">
                         <Button 
                           block

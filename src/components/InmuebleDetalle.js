@@ -15,7 +15,6 @@ import {
   message,
 } from 'antd';
 import {
-  HeartOutlined,
   HomeOutlined,
   CarOutlined,
   EnvironmentOutlined,
@@ -87,13 +86,6 @@ const InmuebleDetalle = () => {
             className="w-full h-80 object-cover"
             fallback="https://placehold.co/400"
           />
-          <div className="absolute top-4 right-4">
-            <Button 
-              shape="circle" 
-              icon={<HeartOutlined />} 
-              className="bg-white/80 border-none shadow-md"
-            />
-          </div>
         </div>
 
         <div className="p-6">
